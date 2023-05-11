@@ -6,7 +6,7 @@
 
 .html,body{
     height:100%;
-    background-color: #EDFFF0;
+    background-color: #ebf8ed;
     overflow-y: hidden;
     overflow-x: hidden;
 }
@@ -48,32 +48,55 @@
     font-size: 19px;
 }
 
-.Cestamilho{
-   position: relative;
+.Cestaimg{
+    position: absolute;
+    width: 440px;
+    height: 350px;
+    right: 125px;
 }
 
 .Verdecanto{
     position: fixed;
     bottom: 0;
     right: 0;
-    width: 625px;
-    height: 575px;
-    background-image: linear-gradient(130.03deg, #EDFFF0 70.65%, #9DFF85 80.27%, #6EFF4A 89.48%, #40FD11 97.05%);
+    width: 725px;
+    height: 675px;
+    background-image: linear-gradient(130.03deg, #ebf8ed 70.65%, #93fd79 80.27%, #78ff56 89.48%, #57fc2d 97.05%);
+
 }
 
 .Texto{
     position: relative;
-    width: 550px;
+    width: 700px;
     height: 350px;
-    left: 120px;
-    top: 30px;
+    left: 200px;
+    top: 150px;
 
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-style: normal;
     font-weight: 400px;
     font-size: 20px;
     line-height: 34px;
     display: flex;
     align-items: center;
-    color: #1B1B1B;
+    color: #1d1c1c;
+}
+
+.textofoda{
+    position: absolute;
+    width: 500px;
+    height: 100px;
+    left: 200px;
+    top: 560px;
+
+    font-family: 'Arial';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 35px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #000000;
 }
